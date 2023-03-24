@@ -3,7 +3,7 @@ const SNAKE_COLOR1 = "#707070";
 const SNAKE_COLOR2 = "#430430";
 const FOOD_COLOR = "#E66916";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://snakegame-y4x1.onrender.com");
 socket.on("init", handleInit);
 socket.on("gameState", handleGameState);
 socket.on("gameOver", handleGameOver);
